@@ -1,0 +1,1 @@
+<?php /**PATH E:\Laravel\Projects from Git\module-12-main\resources\views/UserRegister.blade.php ENDPATH**/ ?>

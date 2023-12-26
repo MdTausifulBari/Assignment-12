@@ -1,0 +1,9 @@
+[2023-12-26 18:28:45] local.ERROR: There are no commands defined in the "link" namespace. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\NamespaceNotFoundException(code: 0): There are no commands defined in the \"link\" namespace. at E:\\Laravel\\Projects from Git\\module-12-main\\vendor\\symfony\\console\\Application.php:657)
+[stacktrace]
+#0 E:\\Laravel\\Projects from Git\\module-12-main\\vendor\\symfony\\console\\Application.php(708): Symfony\\Component\\Console\\Application->findNamespace('link')
+#1 E:\\Laravel\\Projects from Git\\module-12-main\\vendor\\symfony\\console\\Application.php(262): Symfony\\Component\\Console\\Application->find('link:storage')
+#2 E:\\Laravel\\Projects from Git\\module-12-main\\vendor\\symfony\\console\\Application.php(174): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 E:\\Laravel\\Projects from Git\\module-12-main\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(201): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 E:\\Laravel\\Projects from Git\\module-12-main\\artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
